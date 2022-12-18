@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Pacifico", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  background: #000000;
+  color: #ffffff;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 32px;
+  padding: 16px 0px;
+  width: 100%;
+  text-indent: 20px;
+}
+
+
+.breed-select {
+  width: 300px;
+  cursor: pointer;
+}
+
+#dog-image {
+  margin: 16px auto;
+  object-fit: contain;
+  width: 60%;
+  height: 60%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Patrick Hand', cursive;
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline;
+  font-size: 30px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 160px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+select {
+  width: 300px;
+  cursor: pointer;
+}
+
+select[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input {
+  width: 50px;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+#get-images {
+  text-align: center;
+}
+
+#input-number {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+}
+
+#breeds {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+}
+
+footer {
+  font-family: 'Patrick Hand', cursive;
+  margin: 30px;
+}
+
+#random{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  }
+  
+#random:active {
+  box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+#random:hover {
+  outline: 0;
+}
+
+#random span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+#random:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  #random{
+    font-size: 24px;
+    min-width: 196px;
+    }
+}
