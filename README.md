@@ -1,1 +1,1 @@
-![Screenschot][Dog Photo Generator.jpg]
+![Screenschot][Dog Photo Generator.pdf]
